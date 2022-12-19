@@ -96,6 +96,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  /* Loop through 3 LEDs and stay on them depending on the PWM_Delay variable.*/
   while (1)
   {
       while(CH1_DC < 65535)

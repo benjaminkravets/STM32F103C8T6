@@ -1,0 +1,10 @@
+11:41:08 **** Build of configuration Debug for project button_demo ****
+make -j8 all 
+arm-none-eabi-size   button_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8548	     24	   1640	  10212	   27e4	button_demo.elf
+Finished building: default.size.stdout
+ 
+
+11:41:09 Build Finished. 0 errors, 0 warnings. (took 1s.28ms)
+

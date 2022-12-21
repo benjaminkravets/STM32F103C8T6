@@ -1,4 +1,4 @@
-11:41:08 **** Build of configuration Debug for project button_demo ****
+10:50:29 **** Build of configuration Debug for project button_demo ****
 make -j8 all 
 arm-none-eabi-size   button_demo.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   button_demo.elf
 Finished building: default.size.stdout
  
 
-11:41:09 Build Finished. 0 errors, 0 warnings. (took 1s.28ms)
+10:50:29 Build Finished. 0 errors, 0 warnings. (took 498ms)
 

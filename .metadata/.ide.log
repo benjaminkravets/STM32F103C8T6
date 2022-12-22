@@ -15955,3 +15955,7 @@
 2022-12-20 21:18:18,928 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
 2022-12-20 21:18:18,955 [INFO] WebAppUi:462 - Profiles folder deleted
 2022-12-20 21:18:19,192 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-12-21 19:46:08,861 [INFO] Activator:179 - 
+
+
+2022-12-21 19:46:08,863 [INFO] Activator:180 - !SESSION log4j initialized

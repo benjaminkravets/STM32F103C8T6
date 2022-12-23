@@ -240,7 +240,6 @@ void StartDefaultTask(void *argument)
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, GPIO_PIN_RESET);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_13, GPIO_PIN_SET);
       HAL_Delay(100);
-
     osDelay(1);
   }
   /* USER CODE END 5 */

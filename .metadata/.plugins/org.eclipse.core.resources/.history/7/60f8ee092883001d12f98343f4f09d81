@@ -269,7 +269,7 @@ int main(void)
 	  snprintf(snum, 7, "%.2f", Ax);
 	  HD44780_PrintStr(snum);
 
-	  HD44780_SetCursor(5,0);
+	  HD44780_SetCursor(6,0);
 	  snprintf(snum, 7, "%.2f", Ay);
 	  HD44780_PrintStr(snum);
 
@@ -282,7 +282,7 @@ int main(void)
 	  snprintf(snum, 7, "%.2f", Gx);
 	  HD44780_PrintStr(snum);
 
-	  HD44780_SetCursor(5,1);
+	  HD44780_SetCursor(6,1);
 	  snprintf(snum, 7, "%.2f", Gy);
 	  HD44780_PrintStr(snum);
 

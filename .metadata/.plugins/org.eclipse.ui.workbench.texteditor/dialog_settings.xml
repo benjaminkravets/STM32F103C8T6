@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="appmain"/>
+			<item value="default"/>
 			<item value="prv"/>
 			<item value="int puts"/>
 			<item value="puts"/>

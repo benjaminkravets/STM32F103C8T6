@@ -285,3 +285,3083 @@ Finished building: default.size.stdout
  
 Finished building: lcd_demo.list
  
+17:25:52 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+17:26:03 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+17:56:30 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31440	    500	   1876	  33816	   8418	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+17:56:51 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31440	    500	   1876	  33816	   8418	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+17:58:04 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30032	    500	   1876	  32408	   7e98	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+17:58:46 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30024	    500	   1876	  32400	   7e90	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+17:59:24 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30024	    500	   1876	  32400	   7e90	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:04:19 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30024	    500	   1876	  32400	   7e90	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:05:47 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29544	    500	   1876	  31920	   7cb0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:06:28 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29552	    500	   1876	  31928	   7cb8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:06:37 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29552	    500	   1876	  31928	   7cb8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:11:16 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30080	    500	   1876	  32456	   7ec8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:11:43 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30080	    500	   1876	  32456	   7ec8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:11:51 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30592	    500	   1876	  32968	   80c8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:11:53 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30592	    500	   1876	  32968	   80c8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:16:45 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:16:58 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:17:33 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:17:48 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:18:29 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:18:36 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30616	    500	   1876	  32992	   80e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:19:34 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:20:39 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:22:13 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:22:26 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:40:24 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:40:33 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:45:48 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30640	    500	   1876	  33016	   80f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:48:29 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29648	    500	   1876	  32024	   7d18	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:49:08 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29648	    500	   1876	  32024	   7d18	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:51:39 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29648	    500	   1876	  32024	   7d18	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:52:28 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29648	    500	   1876	  32024	   7d18	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:53:52 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30760	    500	   1876	  33136	   8170	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:54:04 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30760	    500	   1876	  33136	   8170	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+18:55:37 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32176	    500	   1876	  34552	   86f8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+18:59:21 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30760	    500	   1876	  33136	   8170	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:04:29 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:308:4: warning: implicit declaration of function 'HAL_DELAY' [-Wimplicit-function-declaration]
+  308 |    HAL_DELAY(5);
+      |    ^~~~~~~~~
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+c:\st\stm32cubeide_1.11.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954\tools\arm-none-eabi\bin\ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/bakra/Desktop/STM32 Projects/lcd_demo/Debug/../Core/Src/main.c:308: undefined reference to `HAL_DELAY'
+c:\st\stm32cubeide_1.11.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954\tools\arm-none-eabi\bin\ld.exe: C:/Users/bakra/Desktop/STM32 Projects/lcd_demo/Debug/../Core/Src/main.c:310: undefined reference to `HAL_DELAY'
+c:\st\stm32cubeide_1.11.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954\tools\arm-none-eabi\bin\ld.exe: C:/Users/bakra/Desktop/STM32 Projects/lcd_demo/Debug/../Core/Src/main.c:312: undefined reference to `HAL_DELAY'
+c:\st\stm32cubeide_1.11.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954\tools\arm-none-eabi\bin\ld.exe: C:/Users/bakra/Desktop/STM32 Projects/lcd_demo/Debug/../Core/Src/main.c:314: undefined reference to `HAL_DELAY'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: lcd_demo.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+19:04:52 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30784	    500	   1876	  33160	   8188	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:07:12 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30760	    500	   1876	  33136	   8170	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:10:49 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30952	    500	   1876	  33328	   8230	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:18:53 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32344	    500	   1876	  34720	   87a0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:19:17 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32344	    500	   1876	  34720	   87a0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+19:19:21 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32344	    500	   1876	  34720	   87a0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+19:19:32 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30920	    500	   1876	  33296	   8210	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:23:55 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30928	    500	   1876	  33304	   8218	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:27:32 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30624	    500	   1876	  33000	   80e8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:39:05 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30624	    500	   1876	  33000	   80e8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:40:13 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32048	    500	   1876	  34424	   8678	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:41:13 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32048	    500	   1876	  34424	   8678	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:41:23 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32048	    500	   1876	  34424	   8678	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+19:42:39 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:43:02 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+19:44:45 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32048	    500	   1876	  34424	   8678	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:45:46 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32048	    500	   1876	  34424	   8678	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:46:40 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32024	    500	   1876	  34400	   8660	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:55:43 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31976	    500	   1876	  34352	   8630	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+19:59:16 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31064	    500	   1876	  33440	   82a0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+20:07:12 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31124	    500	   1876	  33500	   82dc	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+20:08:54 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31300	    500	   1876	  33676	   838c	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:00:27 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31300	    500	   1876	  33676	   838c	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:06:43 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30664	    500	   1876	  33040	   8110	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:07:34 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30656	    500	   1876	  33032	   8108	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:08:23 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:266:8: warning: unused variable 'snum' [-Wunused-variable]
+  266 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = .5;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30568	    500	   1876	  32944	   80b0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:11:24 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:267:8: warning: unused variable 'snum' [-Wunused-variable]
+  267 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29552	    500	   1876	  31928	   7cb8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:14:16 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:267:8: warning: unused variable 'snum' [-Wunused-variable]
+  267 |   char snum[7];
+      |        ^~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29552	    500	   1876	  31928	   7cb8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:16:26 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29552	    500	   1876	  31928	   7cb8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:18:32 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30576	    500	   1876	  32952	   80b8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:20:30 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:282:13: error: 'snum' undeclared (first use in this function)
+  282 |    snprintf(snum, 7, "%.2f", Ax);
+      |             ^~~~
+../Core/Src/main.c:282:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:20:46 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:282:13: error: 'snum' undeclared (first use in this function)
+  282 |    snprintf(snum, 7, "%.2f", Ax);
+      |             ^~~~
+../Core/Src/main.c:282:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:21:38 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:283:21: error: 'snum' undeclared (first use in this function)
+  283 |    HD44780_PrintStr(snum);
+      |                     ^~~~
+../Core/Src/main.c:283:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:25:45 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:282:13: error: 'snum' undeclared (first use in this function)
+  282 |    snprintf(snum, 7, "%.2f", Ax);
+      |             ^~~~
+../Core/Src/main.c:282:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:28:31 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31204	    500	   1876	  33580	   832c	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:30:30 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:30:39 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31984	    500	   1876	  34360	   8638	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:30:55 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31992	    500	   1876	  34368	   8640	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:33:10 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32000	    500	   1876	  34376	   8648	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:35:00 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: variable 'final_pwm' set but not used [-Wunused-but-set-variable]
+  181 |   int32_t final_pwm;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32128	    500	   1876	  34504	   86c8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:35:22 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: variable 'final_pwm' set but not used [-Wunused-but-set-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32136	    500	   1876	  34512	   86d0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:35:40 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32016	    500	   1876	  34392	   8658	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:37:18 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30984	    500	   1876	  33360	   8250	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:37:23 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30984	    500	   1876	  33360	   8250	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+23:38:11 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31024	    500	   1876	  33400	   8278	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:40:27 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31984	    500	   1876	  34360	   8638	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:42:03 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31080	    500	   1876	  33456	   82b0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:46:05 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31080	    500	   1876	  33456	   82b0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:53:44 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30976	    500	   1876	  33352	   8248	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:55:27 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30976	    500	   1876	  33352	   8248	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+23:55:39 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30976	    500	   1876	  33352	   8248	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+23:57:30 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31080	    500	   1876	  33456	   82b0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+11:11:04 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:326:60: error: expected ';' before ')' token
+  326 |        TIM2->CCR1 = ((32767 + .5 * (sinatra) * 65535)) * .5);
+      |                                                            ^
+      |                                                            ;
+../Core/Src/main.c:326:60: error: expected statement before ')' token
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:11:43 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:326:60: error: expected ';' before ')' token
+  326 |        TIM2->CCR1 = ((32767 + .5 * (sinatra) * 65535)) * .5);
+      |                                                            ^
+      |                                                            ;
+../Core/Src/main.c:326:60: error: expected statement before ')' token
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:37:28 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31248	    500	   1876	  33624	   8358	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+11:46:09 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31608	    500	   1876	  33984	   84c0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+11:58:41 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31608	    500	   1876	  33984	   84c0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+11:59:17 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31608	    500	   1876	  33984	   84c0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+12:01:04 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32416	    500	   1876	  34792	   87e8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:06:13 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32408	    500	   1876	  34784	   87e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:08:57 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  32408	    500	   1876	  34784	   87e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:14:45 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:298:30: error: 'Gyro' undeclared (first use in this function); did you mean 'Gy'?
+  298 |    snprintf(snum, 7, "%.2f", Gyro);
+      |                              ^~~~
+      |                              Gy
+../Core/Src/main.c:298:30: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:15:19 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30864	    500	   1876	  33240	   81d8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:16:04 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:20:21 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:21:32 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:21:57 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+12:29:09 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30880	    500	   1876	  33256	   81e8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+12:31:33 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:43:10 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30872	    500	   1876	  33248	   81e0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+13:44:46 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30880	    500	   1876	  33256	   81e8	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:46:06 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30904	    500	   1876	  33280	   8200	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:47:28 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:182:8: warning: unused variable 'snum' [-Wunused-variable]
+  182 |   char snum[5];
+      |        ^~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29592	    500	   1876	  31968	   7ce0	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:54:53 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:182:8: warning: unused variable 'snum' [-Wunused-variable]
+  182 |   char snum[5];
+      |        ^~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29952	    500	   1876	  32328	   7e48	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:57:11 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:182:8: warning: unused variable 'snum' [-Wunused-variable]
+  182 |   char snum[5];
+      |        ^~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29696	    500	   1876	  32072	   7d48	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+13:59:20 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:182:8: warning: unused variable 'snum' [-Wunused-variable]
+  182 |   char snum[5];
+      |        ^~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  29696	    500	   1876	  32072	   7d48	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:00:14 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  29696	    500	   1876	  32072	   7d48	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+14:03:58 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  30960	    500	   1876	  33336	   8238	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:05:31 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31056	    500	   1876	  33432	   8298	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:06:12 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:06:32 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:08:58 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:10:46 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
+arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: lcd_demo.list
+ 
+14:13:53 **** Incremental Build of configuration Debug for project lcd_demo ****
+make -j8 all 
+arm-none-eabi-size   lcd_demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+Finished building: default.size.stdout
+ 

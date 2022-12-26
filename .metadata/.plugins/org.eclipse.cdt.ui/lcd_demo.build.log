@@ -1,10 +1,39 @@
-14:13:53 **** Incremental Build of configuration Debug for project lcd_demo ****
+15:06:54 **** Incremental Build of configuration Debug for project lcd_demo ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:183:9: warning: unused variable 'sinatra' [-Wunused-variable]
+  183 |   float sinatra = -1;
+      |         ^~~~~~~
+../Core/Src/main.c:181:11: warning: unused variable 'final_pwm' [-Wunused-variable]
+  181 |   int32_t final_pwm = 0;
+      |           ^~~~~~~~~
+../Core/Src/main.c:180:11: warning: unused variable 'quar_const' [-Wunused-variable]
+  180 |   int32_t quar_const = 16383;
+      |           ^~~~~~~~~~
+../Core/Src/main.c:179:11: warning: unused variable 'CH4_DC' [-Wunused-variable]
+  179 |   int32_t CH4_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:178:11: warning: unused variable 'CH3_DC' [-Wunused-variable]
+  178 |   int32_t CH3_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:177:11: warning: unused variable 'CH2_DC' [-Wunused-variable]
+  177 |   int32_t CH2_DC = 0;
+      |           ^~~~~~
+../Core/Src/main.c:176:11: warning: unused variable 'CH1_DC' [-Wunused-variable]
+  176 |   int32_t CH1_DC = 0;
+      |           ^~~~~~
+arm-none-eabi-gcc -o "lcd_demo.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\lcd_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lcd_demo.elf
+ 
 arm-none-eabi-size   lcd_demo.elf 
+arm-none-eabi-objdump -h -S  lcd_demo.elf  > "lcd_demo.list"
    text	   data	    bss	    dec	    hex	filename
-  31032	    500	   1876	  33408	   8280	lcd_demo.elf
+  30888	    500	   1876	  33264	   81f0	lcd_demo.elf
 Finished building: default.size.stdout
  
+Finished building: lcd_demo.list
+ 
 
-14:13:53 Build Finished. 0 errors, 0 warnings. (took 162ms)
+15:06:54 Build Finished. 0 errors, 7 warnings. (took 592ms)
 

@@ -279,7 +279,7 @@ int main(void)
 
 	  HD44780_Clear();
 
-
+	  /*
 
 	  HD44780_SetCursor(0,0);
 	  snprintf(snum, 7, "%.2f", Ax);
@@ -293,8 +293,10 @@ int main(void)
 	  snprintf(snum, 7, "%.2f", Az);
 	  HD44780_PrintStr(snum);
 
+	  */
+
 	  HD44780_SetCursor(0,1);
-	  snprintf(snum, 7, "%d", Accel_X_RAW);
+	  snprintf(snum, 7, "%d", ((32767 + ((Accel_X_RAW - Accel_Y_RAW) * 4))));
 	  HD44780_PrintStr(snum);
 
 	  HD44780_SetCursor(8,1);
@@ -305,7 +307,7 @@ int main(void)
 
 
 
-	  HAL_Delay(100);
+	  HAL_Delay(20);
 	  /*
 
 	  HD44780_SetCursor(0,1);

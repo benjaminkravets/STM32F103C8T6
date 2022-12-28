@@ -179,8 +179,6 @@ int main(void)
   int32_t CH4_DC = 0;
   int32_t quar_const = 16383;
   int32_t final_pwm = 0;
-  int32_t x_mov;
-  int32_t y_mov;
   char snum[5];
   float sinatra = -1;
   /* USER CODE END 1 */
@@ -325,18 +323,6 @@ int main(void)
 	  HD44780_PrintStr(snum);
 
 	*/
-
-	  //Added 12/27
-	  /*
-	   TIM2->CCR1 = (32767 + ((Accel_X_RAW - x_mov + y_mov - Accel_Y_RAW) * 4));
-
-	   TIM2->CCR2 = (32767 + ((-Accel_X_RAW - Accel_Y_RAW) * 4));
-
-	   TIM2->CCR3 = (32767 + ((Accel_X_RAW + Accel_Y_RAW) * 4));
-
-	   TIM2->CCR4 = (32767 + ((-Accel_X_RAW + Accel_Y_RAW) * 4));
-
-	   */
 
 
 	  TIM2->CCR1 = (32767 + ((Accel_X_RAW - Accel_Y_RAW) * 4));

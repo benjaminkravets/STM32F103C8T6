@@ -1,2 +1,2 @@
 # STM32-Projects
-My STM32 workspace backup, not necessarily a single project.
+Elves on the shelves- a backup of my STM32 workspace with several projects in-progress.

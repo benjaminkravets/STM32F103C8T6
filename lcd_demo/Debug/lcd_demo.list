@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000029  00000000  00000000  000201ec  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000bd90  00000000  00000000  00020215  2**0
+ 12 .debug_info   0000bda8  00000000  00000000  00020215  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001c1e  00000000  00000000  0002bfa5  2**0
+ 13 .debug_abbrev 00001c2d  00000000  00000000  0002bfbd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000dd8  00000000  00000000  0002dbc8  2**3
+ 14 .debug_aranges 00000dd8  00000000  00000000  0002dbf0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000d18  00000000  00000000  0002e9a0  2**3
+ 15 .debug_ranges 00000d18  00000000  00000000  0002e9c8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00018764  00000000  00000000  0002f6b8  2**0
+ 16 .debug_macro  00018764  00000000  00000000  0002f6e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000e98e  00000000  00000000  00047e1c  2**0
+ 17 .debug_line   0000e9a3  00000000  00000000  00047e44  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0008c0ea  00000000  00000000  000567aa  2**0
+ 18 .debug_str    0008c0ff  00000000  00000000  000567e7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000e2894  2**0
+ 19 .comment      00000050  00000000  00000000  000e28e6  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00004be4  00000000  00000000  000e28e4  2**2
+ 20 .debug_frame  00004be4  00000000  00000000  000e2938  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1936,6 +1936,8 @@ int main(void)
   int32_t final_pwm = 0;
  80011d0:	2300      	movs	r3, #0
  80011d2:	613b      	str	r3, [r7, #16]
+  int32_t x_mov;
+  int32_t y_mov;
   char snum[5];
   float sinatra = -1;
  80011d4:	4b48      	ldr	r3, [pc, #288]	; (80012f8 <main+0x144>)
@@ -2052,9 +2054,9 @@ int main(void)
 	  HAL_Delay(20);
  8001278:	2014      	movs	r0, #20
  800127a:	f000 fc03 	bl	8001a84 <HAL_Delay>
-	  HD44780_PrintStr(snum);
+	   TIM2->CCR4 = (32767 + ((-Accel_X_RAW + Accel_Y_RAW) * 4));
 
-	*/
+	   */
 
 
 	  TIM2->CCR1 = (32767 + ((Accel_X_RAW - Accel_Y_RAW) * 4));

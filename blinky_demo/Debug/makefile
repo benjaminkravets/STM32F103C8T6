@@ -60,8 +60,8 @@ all: main-build
 main-build: blinky_demo.elf secondary-outputs
 
 # Tool invocations
-blinky_demo.elf blinky_demo.map: $(OBJS) $(USER_OBJS) C:\Users\bakra\Desktop\STM32\ Projects\blinky_demo\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "blinky_demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\bakra\Desktop\STM32 Projects\blinky_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinky_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+blinky_demo.elf blinky_demo.map: $(OBJS) $(USER_OBJS) C:\Users\bakra\OneDrive\Desktop\STM32\ Projects\blinky_demo\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "blinky_demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\bakra\OneDrive\Desktop\STM32 Projects\blinky_demo\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinky_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

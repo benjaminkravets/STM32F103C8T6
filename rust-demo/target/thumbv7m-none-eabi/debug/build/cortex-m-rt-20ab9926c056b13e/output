@@ -1,0 +1,5 @@
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv7m
+cargo:rustc-link-search=C:\Users\bakra\Desktop\STM32F103C8T6\rust-demo\target\thumbv7m-none-eabi\debug\build\cortex-m-rt-20ab9926c056b13e\out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in

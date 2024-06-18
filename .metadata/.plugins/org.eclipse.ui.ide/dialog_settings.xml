@@ -27,6 +27,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\bakra\Desktop\STM32F103C8T6"/>
 			<item value="C:\Users\bakra\Desktop\multi_mode_traffic_light"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

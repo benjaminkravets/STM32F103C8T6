@@ -3,4 +3,4 @@
 
 //& allows powershell to call a command, next the STM32 Programmer CLI .exe path is given. ST-LINK will be SWD, then the binary is specified. Because my boot pins are both 0s, the flash start location is 0x08000000
 
-& 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_Programmer_CLI.exe' -c port=SWD -d .\Desktop\STM32F103C8T6\blinky_test\Debug\blinky_test.elf 0x08000000
+& 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_Programmer_CLI.exe' -c port=SWD -d C:\Users\bakra\Desktop\STM32F103C8T6\rust-demo\target\thumbv7m-none-eabi\debug\rust-demo.elf 0x08000000

@@ -1,0 +1,10 @@
+20:06:36 **** Incremental Build of configuration Debug for project SD Card STM32F103 ****
+make -j16 all 
+arm-none-eabi-size  SD\ Card\ STM32F103.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34840	    136	   2632	  37608	   92e8	SD Card STM32F103.elf
+Finished building: default.size.stdout
+ 
+
+20:06:36 Build Finished. 0 errors, 0 warnings. (took 219ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SD Card STM32F103/SD Card.ioc&apos; to &apos;SD Card STM32F103.ioc&apos;" description="Rename resource &apos;SD Card.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="SD Card.ioc" name="SD Card STM32F103.ioc" stamp="1718826781245" updateReferences="true"/>
+</session>

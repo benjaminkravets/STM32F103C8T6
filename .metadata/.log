@@ -8265,3 +8265,2020 @@ java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F10
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-06-17 20:42:03.506
 !MESSAGE Indexed 'SDCARD_SPI_F103' (28 sources, 110 headers) in 2.68 sec: 8,596 declarations; 33,752 references; 6 unresolved inclusions; 289 syntax errors; 1,073 unresolved names (2.5%)
+!SESSION 2024-06-18 19:36:23.638 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-18 19:36:52.894
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-18 19:36:52.895
+!MESSAGE Log4j2 initialized with config file C:\Users\bakra\Desktop\STM32F103C8T6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-18 19:37:00.238
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-06-19 15:15:02.009 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:15:20.436
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2024-06-19 15:15:20.436
+!MESSAGE Could not read metadata for 'SDCARD_SPI_F103'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/SDCARD_SPI_F103)[567]: java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2024-06-19 15:15:20.439
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2620)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2324)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:258)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:185)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-19 15:15:31.257
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-19 15:15:31.263
+!MESSAGE Log4j2 initialized with config file C:\Users\bakra\Desktop\STM32F103C8T6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-19 15:15:37.713
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:34:22.614
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1100)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:34:30.595
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1100)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:36:04.029
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1100)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-06-19 15:36:10.786
+!MESSAGE Error loading provider class=[com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm] in project=mpu6050, cfg=[com.atollic.truestudio.exe.debug.1518366166]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2238)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:557)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2268)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:2996)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:805)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:878)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2912)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1995)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1964)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1921)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1907)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1397)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1358)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1422)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-06-19 15:36:10.786
+!MESSAGE Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-06-19 15:36:10.787
+!MESSAGE Error loading provider class=[com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm] in project=mpu6050, cfg=[com.atollic.truestudio.configuration.release.1518366166]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2238)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:557)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2268)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:2996)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:805)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:878)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2912)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1995)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1964)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1921)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1907)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1397)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1358)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1422)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-06-19 15:36:10.787
+!MESSAGE Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.795
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.debug.1518366166]: parent extension cfg [com.atollic.truestudio.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2238)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:557)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2268)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:2996)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:805)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:878)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2912)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1995)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1964)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1921)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1907)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1397)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1358)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1422)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.796
+!MESSAGE Missing superclass "com.atollic.truestudio.general.runtimelib" for "com.atollic.truestudio.general.runtimelib.379644932"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.796
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.mcu" for "com.atollic.truestudio.toolchain_options.mcu.1148613288"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.797
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.vendor" for "com.atollic.truestudio.toolchain_options.vendor.2008536025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.798
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1608144567"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.798
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.286463162"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.799
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.2033833414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.799
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.incpath" for "com.atollic.truestudio.as.general.incpath.770237934"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.800
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.800
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.otherflags" for "com.atollic.truestudio.as.general.otherflags.51384659"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.801
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.warnings" for "com.atollic.truestudio.as.general.warnings.1324541152"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.801
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.801
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.803
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.directories.select" for "com.atollic.truestudio.gcc.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.803
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.803
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1854274048"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.803
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.191909026"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.804
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1503159865"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.804
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_garbage" for "com.atollic.truestudio.gcc.optimization.prep_garbage.586275206"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.804
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_data" for "com.atollic.truestudio.gcc.optimization.prep_data.1044766448"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.805
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.misc.otherflags" for "com.atollic.truestudio.gcc.misc.otherflags.895097519"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.805
+!MESSAGE Missing superclass "com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level" for "com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level.1763412676"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.805
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.806
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.806
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.interwork" for "com.atollic.truestudio.common_options.target.interwork.1173495076"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.807
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.662778612"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.807
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.35700531"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.807
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.566688004"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.807
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.general.scriptfile" for "com.atollic.truestudio.ld.general.scriptfile.1350476438"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.808
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.optimization.do_garbage" for "com.atollic.truestudio.ld.optimization.do_garbage.1816004776"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.808
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.list" for "com.atollic.truestudio.ld.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.809
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.searchpath" for "com.atollic.truestudio.ld.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.809
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.misc.linkerflags" for "com.atollic.truestudio.ld.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.809
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.809
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.810
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.directories.select" for "com.atollic.truestudio.gpp.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.810
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.symbols.defined" for "com.atollic.truestudio.gpp.symbols.defined.1619552487"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.810
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.176262651"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.811
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.630487808"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.811
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.227324580"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.811
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.prep_garbage" for "com.atollic.truestudio.gpp.optimization.prep_garbage.26464025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.812
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_rtti" for "com.atollic.truestudio.gpp.optimization.fno_rtti.1009504734"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.812
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_exceptions" for "com.atollic.truestudio.gpp.optimization.fno_exceptions.342217745"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.812
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.812
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.813
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.2051741049"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.813
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.1701726850"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.813
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1600237525"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.814
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.general.scriptfile" for "com.atollic.truestudio.ldcc.general.scriptfile.561304432"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.814
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.optimization.do_garbage" for "com.atollic.truestudio.ldcc.optimization.do_garbage.956844137"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.814
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.list" for "com.atollic.truestudio.ldcc.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.815
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.searchpath" for "com.atollic.truestudio.ldcc.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.815
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.misc.linkerflags" for "com.atollic.truestudio.ldcc.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.815
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.816
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.847
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.configuration.release.1518366166]: parent extension cfg [com.atollic.truestudio.configuration.release] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getSourceEntries(MakeContentProvider.java:411)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.getChildren(MakeContentProvider.java:106)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.hasChildren(MakeContentProvider.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2238)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:557)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2268)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updatePlus(AbstractTreeViewer.java:2996)
+	at org.eclipse.jface.viewers.TreeViewer.updatePlus(TreeViewer.java:805)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:878)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2912)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1995)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1964)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1921)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1907)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$2(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1397)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1358)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1468)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1422)
+	at org.eclipse.cdt.make.ui.MakeContentProvider.lambda$0(MakeContentProvider.java:242)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.848
+!MESSAGE Missing superclass "com.atollic.truestudio.general.runtimelib" for "com.atollic.truestudio.general.runtimelib.143798172"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.848
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.mcu" for "com.atollic.truestudio.toolchain_options.mcu.788925640"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.848
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.vendor" for "com.atollic.truestudio.toolchain_options.vendor.639784139"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.848
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1608144567"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.849
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.286463162"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.849
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.2033833414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.849
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.incpath" for "com.atollic.truestudio.as.general.incpath.770237934"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.849
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.851
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.otherflags" for "com.atollic.truestudio.as.general.otherflags.51384659"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.851
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.warnings" for "com.atollic.truestudio.as.general.warnings.1324541152"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.851
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.851
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.852
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.directories.select" for "com.atollic.truestudio.gcc.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.852
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.852
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1854274048"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.853
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.191909026"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.853
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1503159865"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.853
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_garbage" for "com.atollic.truestudio.gcc.optimization.prep_garbage.586275206"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.853
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_data" for "com.atollic.truestudio.gcc.optimization.prep_data.1044766448"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.855
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.misc.otherflags" for "com.atollic.truestudio.gcc.misc.otherflags.895097519"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.855
+!MESSAGE Missing superclass "com.atollic.truestudio.exe.release.toolchain.gcc.optimization.level" for "com.atollic.truestudio.exe.release.toolchain.gcc.optimization.level.1763412676"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.855
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.856
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.856
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.interwork" for "com.atollic.truestudio.common_options.target.interwork.1173495076"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.856
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.662778612"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.857
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.35700531"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.857
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.566688004"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.857
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.general.scriptfile" for "com.atollic.truestudio.ld.general.scriptfile.1350476438"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.858
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.optimization.do_garbage" for "com.atollic.truestudio.ld.optimization.do_garbage.1816004776"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.858
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.list" for "com.atollic.truestudio.ld.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.858
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.searchpath" for "com.atollic.truestudio.ld.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.859
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.misc.linkerflags" for "com.atollic.truestudio.ld.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.859
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.859
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.859
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.directories.select" for "com.atollic.truestudio.gpp.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.860
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.symbols.defined" for "com.atollic.truestudio.gpp.symbols.defined.1619552487"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.860
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.176262651"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.860
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.630487808"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.861
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.227324580"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.861
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.prep_garbage" for "com.atollic.truestudio.gpp.optimization.prep_garbage.26464025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.861
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_rtti" for "com.atollic.truestudio.gpp.optimization.fno_rtti.1009504734"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.862
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_exceptions" for "com.atollic.truestudio.gpp.optimization.fno_exceptions.342217745"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.862
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.862
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.863
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.2051741049"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.863
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.1701726850"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.863
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1600237525"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.864
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.general.scriptfile" for "com.atollic.truestudio.ldcc.general.scriptfile.561304432"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.864
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.optimization.do_garbage" for "com.atollic.truestudio.ldcc.optimization.do_garbage.956844137"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.864
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.list" for "com.atollic.truestudio.ldcc.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.865
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.searchpath" for "com.atollic.truestudio.ldcc.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.865
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.misc.linkerflags" for "com.atollic.truestudio.ldcc.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.866
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:10.866
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-06-19 15:36:13.855
+!MESSAGE Error loading provider class=[com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm] in project=mpu6050, cfg=[com.atollic.truestudio.exe.debug.1518366166]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-06-19 15:36:13.855
+!MESSAGE Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-06-19 15:36:13.855
+!MESSAGE Error loading provider class=[com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm] in project=mpu6050, cfg=[com.atollic.truestudio.configuration.release.1518366166]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-06-19 15:36:13.855
+!MESSAGE Not able to load provider class=com.atollic.truestudio.mbs.GCCSpecsDetectorAtollicArm
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.856
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.exe.debug.1518366166]: parent extension cfg [com.atollic.truestudio.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.856
+!MESSAGE Missing superclass "com.atollic.truestudio.general.runtimelib" for "com.atollic.truestudio.general.runtimelib.379644932"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.856
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.mcu" for "com.atollic.truestudio.toolchain_options.mcu.1148613288"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.856
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.vendor" for "com.atollic.truestudio.toolchain_options.vendor.2008536025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.857
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1608144567"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.857
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.286463162"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.857
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.2033833414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.858
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.incpath" for "com.atollic.truestudio.as.general.incpath.770237934"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.858
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.858
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.otherflags" for "com.atollic.truestudio.as.general.otherflags.51384659"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.860
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.warnings" for "com.atollic.truestudio.as.general.warnings.1324541152"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.860
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.860
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.861
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.directories.select" for "com.atollic.truestudio.gcc.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.861
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.861
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1854274048"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.862
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.191909026"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.862
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1503159865"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.862
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_garbage" for "com.atollic.truestudio.gcc.optimization.prep_garbage.586275206"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.863
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_data" for "com.atollic.truestudio.gcc.optimization.prep_data.1044766448"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.863
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.misc.otherflags" for "com.atollic.truestudio.gcc.misc.otherflags.895097519"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.864
+!MESSAGE Missing superclass "com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level" for "com.atollic.truestudio.exe.debug.toolchain.gcc.optimization.level.1763412676"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.864
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.865
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.865
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.interwork" for "com.atollic.truestudio.common_options.target.interwork.1173495076"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.865
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.662778612"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.866
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.35700531"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.866
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.566688004"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.867
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.general.scriptfile" for "com.atollic.truestudio.ld.general.scriptfile.1350476438"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.867
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.optimization.do_garbage" for "com.atollic.truestudio.ld.optimization.do_garbage.1816004776"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.867
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.list" for "com.atollic.truestudio.ld.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.867
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.searchpath" for "com.atollic.truestudio.ld.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.868
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.misc.linkerflags" for "com.atollic.truestudio.ld.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.868
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.868
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.869
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.directories.select" for "com.atollic.truestudio.gpp.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.869
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.symbols.defined" for "com.atollic.truestudio.gpp.symbols.defined.1619552487"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.869
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.176262651"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.869
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.630487808"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.871
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.227324580"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.871
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.prep_garbage" for "com.atollic.truestudio.gpp.optimization.prep_garbage.26464025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.871
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_rtti" for "com.atollic.truestudio.gpp.optimization.fno_rtti.1009504734"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.872
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_exceptions" for "com.atollic.truestudio.gpp.optimization.fno_exceptions.342217745"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.872
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.872
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.873
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.2051741049"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.873
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.1701726850"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.873
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1600237525"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.874
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.general.scriptfile" for "com.atollic.truestudio.ldcc.general.scriptfile.561304432"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.874
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.optimization.do_garbage" for "com.atollic.truestudio.ldcc.optimization.do_garbage.956844137"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.874
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.list" for "com.atollic.truestudio.ldcc.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.874
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.searchpath" for "com.atollic.truestudio.ldcc.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.875
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.misc.linkerflags" for "com.atollic.truestudio.ldcc.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.875
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.875
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.883
+!MESSAGE Project 'mpu6050' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/mpu6050)[372]: java.lang.Exception: Project 'mpu6050' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2024-06-19 15:36:13.883
+!MESSAGE Project 'mpu6050' is not open.
+!STACK 0
+java.lang.Exception: Project 'mpu6050' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.895
+!MESSAGE Orphaned CDT build configuration [com.atollic.truestudio.configuration.release.1518366166]: parent extension cfg [com.atollic.truestudio.configuration.release] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.896
+!MESSAGE Missing superclass "com.atollic.truestudio.general.runtimelib" for "com.atollic.truestudio.general.runtimelib.143798172"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.896
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.mcu" for "com.atollic.truestudio.toolchain_options.mcu.788925640"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.896
+!MESSAGE Missing superclass "com.atollic.truestudio.toolchain_options.vendor" for "com.atollic.truestudio.toolchain_options.vendor.639784139"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.897
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1608144567"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.897
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.286463162"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.897
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.2033833414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.898
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.incpath" for "com.atollic.truestudio.as.general.incpath.770237934"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.898
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.898
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.otherflags" for "com.atollic.truestudio.as.general.otherflags.51384659"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.899
+!MESSAGE Missing superclass "com.atollic.truestudio.as.general.warnings" for "com.atollic.truestudio.as.general.warnings.1324541152"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.899
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.899
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.900
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.directories.select" for "com.atollic.truestudio.gcc.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.901
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.symbols.defined" for "com.atollic.truestudio.gcc.symbols.defined.1670122205"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.901
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.1854274048"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.901
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.191909026"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.902
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1503159865"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.902
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_garbage" for "com.atollic.truestudio.gcc.optimization.prep_garbage.586275206"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.902
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.optimization.prep_data" for "com.atollic.truestudio.gcc.optimization.prep_data.1044766448"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.902
+!MESSAGE Missing superclass "com.atollic.truestudio.gcc.misc.otherflags" for "com.atollic.truestudio.gcc.misc.otherflags.895097519"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.903
+!MESSAGE Missing superclass "com.atollic.truestudio.exe.release.toolchain.gcc.optimization.level" for "com.atollic.truestudio.exe.release.toolchain.gcc.optimization.level.1763412676"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.903
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.903
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.904
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.interwork" for "com.atollic.truestudio.common_options.target.interwork.1173495076"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.904
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.662778612"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.904
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.35700531"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.904
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.566688004"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.905
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.general.scriptfile" for "com.atollic.truestudio.ld.general.scriptfile.1350476438"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.905
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.optimization.do_garbage" for "com.atollic.truestudio.ld.optimization.do_garbage.1816004776"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.905
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.list" for "com.atollic.truestudio.ld.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.906
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.libraries.searchpath" for "com.atollic.truestudio.ld.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.906
+!MESSAGE Missing superclass "com.atollic.truestudio.ld.misc.linkerflags" for "com.atollic.truestudio.ld.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.906
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.906
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.907
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.directories.select" for "com.atollic.truestudio.gpp.directories.select.330946435"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.907
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.symbols.defined" for "com.atollic.truestudio.gpp.symbols.defined.1619552487"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.907
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.176262651"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.907
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.630487808"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.908
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.227324580"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.908
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.prep_garbage" for "com.atollic.truestudio.gpp.optimization.prep_garbage.26464025"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.908
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_rtti" for "com.atollic.truestudio.gpp.optimization.fno_rtti.1009504734"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.909
+!MESSAGE Missing superclass "com.atollic.truestudio.gpp.optimization.fno_exceptions" for "com.atollic.truestudio.gpp.optimization.fno_exceptions.342217745"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.909
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.909
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.909
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.endianess" for "com.atollic.truestudio.common_options.target.endianess.2051741049"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.910
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.mcpu" for "com.atollic.truestudio.common_options.target.mcpu.1701726850"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.910
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.instr_set" for "com.atollic.truestudio.common_options.target.instr_set.1600237525"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.910
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.general.scriptfile" for "com.atollic.truestudio.ldcc.general.scriptfile.561304432"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.911
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.optimization.do_garbage" for "com.atollic.truestudio.ldcc.optimization.do_garbage.956844137"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.911
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.list" for "com.atollic.truestudio.ldcc.libraries.list.848669414"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.911
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.libraries.searchpath" for "com.atollic.truestudio.ldcc.libraries.searchpath.1273009461"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.912
+!MESSAGE Missing superclass "com.atollic.truestudio.ldcc.misc.linkerflags" for "com.atollic.truestudio.ldcc.misc.linkerflags.1948405714"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.912
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpu" for "com.atollic.truestudio.common_options.target.fpu.829683864"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.912
+!MESSAGE Missing superclass "com.atollic.truestudio.common_options.target.fpucore" for "com.atollic.truestudio.common_options.target.fpucore.1297069055"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-06-19 15:36:13.921
+!MESSAGE Project 'mpu6050' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/mpu6050)[372]: java.lang.Exception: Project 'mpu6050' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2024-06-19 15:36:13.921
+!MESSAGE Project 'mpu6050' is not open.
+!STACK 0
+java.lang.Exception: Project 'mpu6050' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:430)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-06-19 15:36:13.925
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:681)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2024-06-19 15:36:13.925
+!MESSAGE attempt to set description for a project which does not exist or not open
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:36:15.495
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1100)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-06-19 15:36:54.795
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-06-19 15:36:54.799
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-06-19 15:36:54.799
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-19 15:36:55.632
+!MESSAGE Indexed 'SD Card STM32F103' (27 sources, 120 headers) in 4.03 sec: 9,316 declarations; 42,292 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.36%)
+
+!ENTRY org.eclipse.core.resources 4 567 2024-06-19 15:36:56.386
+!MESSAGE The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'SDCARD_SPI_F103' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:955)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1100)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:37:09.073
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:37:09.073
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:37:09.073
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:37:09.075
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.ui 4 4 2024-06-19 15:37:09.111
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Invalid Input: Must be project's active .ioc file.
+
+Project's 'SD Card STM32F103' active one is 'SD Card STM32F103.ioc' file
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.init(CubeMxEditor.java:855)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:661)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3233)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3082)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:103)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:96)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:184)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1115)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:452)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-06-19 15:37:09.111
+!MESSAGE Invalid Input: Must be project's active .ioc file.
+
+Project's 'SD Card STM32F103' active one is 'SD Card STM32F103.ioc' file
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:37:18.066
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:37:18.066
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:37:18.066
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:37:18.067
+!MESSAGE Project is null
+!SESSION 2024-06-19 15:37:45.280 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-19 15:50:22.505
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-19 15:50:22.505
+!MESSAGE Log4j2 initialized with config file C:\Users\bakra\Desktop\STM32F103C8T6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-19 15:50:27.522
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-06-19 15:50:29.578
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39
+!SESSION 2024-06-19 15:51:00.118 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-19 15:51:07.613
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-19 15:51:07.614
+!MESSAGE Log4j2 initialized with config file C:\Users\bakra\Desktop\STM32F103C8T6\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-19 15:51:12.534
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-19 15:51:26.068
+!MESSAGE Indexed 'SD Card STM32F103' (27 sources, 120 headers) in 3.21 sec: 9,316 declarations; 42,292 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.36%)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-06-19 15:51:26.340
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-06-19 15:51:26.342
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-06-19 15:51:26.342
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:51:30.502
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:51:30.502
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:51:30.502
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:51:30.502
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.ui 4 4 2024-06-19 15:51:30.506
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Invalid Input: Must be project's active .ioc file.
+
+Project's 'SD Card STM32F103' active one is 'SD Card STM32F103.ioc' file
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.init(CubeMxEditor.java:855)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:976)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:938)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:138)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:385)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:311)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:661)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3233)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:3123)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3121)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3091)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3082)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:103)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:96)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:184)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1115)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:452)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-06-19 15:51:30.506
+!MESSAGE Invalid Input: Must be project's active .ioc file.
+
+Project's 'SD Card STM32F103' active one is 'SD Card STM32F103.ioc' file
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:52:00.230
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:52:00.230
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:52:00.230
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:52:00.230
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:52:02.736
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:52:02.736
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:52:02.736
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:52:02.737
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-06-19 15:52:53.486
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-06-19 15:52:53.486
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-06-19 15:52:53.486
+!MESSAGE C:\Users\bakra\Desktop\STM32F103C8T6\SD Card STM32F103 overlaps the location of another project: 'SD Card STM32F103'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-06-19 15:52:53.487
+!MESSAGE Project is null
